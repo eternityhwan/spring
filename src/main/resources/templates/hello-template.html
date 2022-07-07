@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>MVC</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<!-- 요새는 view와 controller를 분리하는게 일반적 -->
+<!-- 브라우저 요청 -> 톰캣 내장서버에서 > hello controller -> hello-template로 넘김(model(name:spring) > -->
+<p th:text="'hello. ' + ${name}" >hello! empty</p>
+</body>
+</html>
